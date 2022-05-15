@@ -1,64 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p style="font-size:128px;">♒ Aquarius</p>
 
-<p align="center">
+<p style="text-align: center; visibility: hidden;">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Descripción general del proyecto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+La aplicación (que aún no dispone de un nombre, e.g: HappyQuarium) consiste en un conjunto de herramientas con dos objetivos bien definidos:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1. Ofrecer una guía al usuario iniciado en el acondicionamiento de un nuevo acuario (conocido como rodaje o ciclado del agua).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+3. Facilitar el seguimiento y control en el tiempo de los distintos parámetros que participan en el correcto estado del acuario, principalmente:
+    - **Temperatura**: Temperatura general del agua (ºC ó ºF).
+    - **pH**: Acidez/Alcalinidad del agua.
+    - **gH**: Dureza general (Concentración de sales disueltas en el agua).
+    - **kH**: Dureza de carbonatos (Concentración de sales carbonatadas disueltas en el agua).
 
-## Learning Laravel
+## Funcionalidad principal de la aplicación
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+La aplicación se presenta como una solución adecuada tanto para novatos como experimentados.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### De cara al iniciado
+Se pretende combatir el fracaso que comunmente se produce por falta de conocimientos, tratando de aislarlo de la complejidad que supone introducirse en tantos y variados conceptos, y enseñarle poco a poco mientras el agua se acondiciona para acoger plantas y peces (~20-30 días).
 
-## Laravel Sponsors
+### De cara al usuario aficionado/avanzado
+Se le ofrece una herramienta para el seguimiento programado del acuario, basada en el análisis y recogida de datos de las distintas pruebas que periódicamente requiere un acuario, para determinar el estado de salud del mismo y avisar al usuario de posibles peligros que comprometan la vida de los peces.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Objetivos generales
 
-### Premium Partners
+  - [  ] Registrar acuarios indicando las características del mismo (dimensiones, capacidad...).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+  - [  ] Indicar qué peces habitan en el acuario, y avisar de requisitos e incompatibilidades entre ellos y el acuario (cardumen mínimo, espacio por individuo...).
 
-## Contributing
+  - [   ] Realizar registros del estado de acuario y advertir si algunos peces se ven afectados por esos parámetros del agua.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  - [   ] Programar avisos para tareas típicas de mantenimiento (e.g. análisis semanal del agua, cambios parciales del agua...).
 
-## Code of Conduct
+  - [   ] Comenzar un acuario de cero y gestionar el primer ciclado del agua para acondicionarlo para recibir peces.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  - [   ] Ofrecer información útil sobre recomendaciones y sugerencias para el correcto estado del acuario.
 
-## Security Vulnerabilities
+## Elemento de innovación
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Para aumentar las probabilidades de éxito en esta afición, la aplicación contará con un apartado de documentación, implementado usando [Jekyll](https://jekyllrb.com/), con un conjunto de capítulos de los conocimientos mínimos para montar tu propio acuario desde cero.
 
-## License
+## Contacto
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Eduardo Martínez Romero - [eduardo.martinez@iesdonana.org](mailto:eduardo.martinez@iesdonana.org)
+
+Proyecto de Desarrollo de Aplicaciones Web - Curso 2021 | 2022 - IES Doñana -
